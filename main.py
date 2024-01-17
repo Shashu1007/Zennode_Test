@@ -1,4 +1,6 @@
-
+wrapFeeA = 0
+wrapFeeB = 0
+wrapFeeC = 0
 
 
 ProductA = int(input("Enter the number of quantities for product A:"))
@@ -50,9 +52,16 @@ ProductCPrice = ProductC * 50
 cartPrice = ProductAPrice + ProductBPrice + ProductCPrice
 totalprice = cartPrice
 totalquantity = ProductA + ProductB + ProductC
+
+
+gt15unitdiscount = 0
+productgt10discount = 0
+totalgt15unitdiscount = 0
 productgt10 = 0
-
-
+total15unitprice = 0
+flat_10D_discount = 0
+max_discountName = " "
+flat_10P_discount = 0
 
 
 if totalquantity > 20:
@@ -78,7 +87,7 @@ if maxunit > 15:
     gt15unitdiscount = (gt15unitDff * maxunitprice) * (5/100)
 
 elif maxunit > 10:
-    productgt10discount = productgt10 - productgt10 * (5/100)
+    productgt10discount = productgt10 - (productgt10 * (5/100))
 
 if totalquantity > 30 and gt15unitdiscount:
     totalgt15unitdiscount = total15unitprice + gt15unitdiscount
@@ -116,7 +125,7 @@ else:
 
 totalwrapfee = wrapFeeA + wrapFeeB + wrapFeeC
 totalfee = totalshippingfee + totalwrapfee
-subtotal = cartPrice - MaxDiscount
+subtotal =  cartPrice - MaxDiscount
 
 if ProductA:
     a = "Product A"
@@ -133,5 +142,5 @@ print("Sub Total = ", subtotal)
 print("Discount applied = {}, Discount name = {}".format(MaxDiscount, max_discountName))
 print("Shipping fee={}, Gift wrap fee={}".format(totalshippingfee, totalwrapfee))
 total = subtotal + totalfee
-print("Total quantities = ", totalquantity)
+print("Total quantities = ",totalquantity)
 print("Total = ", total)
