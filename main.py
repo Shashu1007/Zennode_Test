@@ -4,47 +4,45 @@ wrapFeeC = 0
 
 
 ProductA = int(input("Enter the number of quantities for product A:"))
-while True:
-    isGiftWrapA = (input("Do you want to gift wrap this product (y/n)?"))
-    if isGiftWrapA == "y":
-        wrapFeeA = ProductA * 1
-        break
-    elif isGiftWrapA == "n":
-        wrapFeeA = 0
-        break
-    else:
-        print("invalid choice enter either 'y' or 'n' ")
+
+isGiftWrapA = (input("Do you want to gift wrap this product (y/n)?"))
+if isGiftWrapA == "y":
+    wrapFeeA = ProductA * 1
+
+elif isGiftWrapA == "n":
+    wrapFeeA = 0
+
+else:
+    print("invalid choice enter either 'y' or 'n' ")
 ProductAPrice = ProductA * 20
 
 
 ProductB = int(input("Enter the number of quantities for product B:"))
 
-while True:
-    isGiftWrapB = (input("Do you want to gift wrap this product (y/n)?"))
-    if isGiftWrapB == "y":
-        wrapFeeB = ProductB * 1
-        break
-    elif isGiftWrapB == "n":
-        wrapFeeB = 0
-        break
-    else:
-        print("invalid choice enter either 'y' or 'n' ")
+isGiftWrapB = (input("Do you want to gift wrap this product (y/n)?"))
+if isGiftWrapB == "y":
+    wrapFeeB = ProductB * 1
+
+elif isGiftWrapB == "n":
+    wrapFeeB = 0
+
+else:
+    print("invalid choice enter either 'y' or 'n' ")
 
 ProductBPrice = ProductB * 40
 
 
 ProductC = int(input("enter the number of quantities for product C:"))
 
-while True:
-    isGiftWrapC = (input("Do you want to gift wrap this product (y/n)?"))
-    if isGiftWrapC == "y":
-        wrapFeeC = ProductC * 1
-        break
-    elif isGiftWrapC == "n":
-        wrapFeeC = 0
-        break
-    else:
-        print("invalid choice enter either 'y' or 'n' ")
+isGiftWrapC = (input("Do you want to gift wrap this product (y/n)?"))
+if isGiftWrapC == "y":
+    wrapFeeC = ProductC * 1
+
+elif isGiftWrapC == "n":
+    wrapFeeC = 0
+
+else:
+    print("invalid choice enter either 'y' or 'n' ")
 
 ProductCPrice = ProductC * 50
 
@@ -65,7 +63,7 @@ flat_10P_discount = 0
 
 
 if totalquantity > 20:
-    flat_10P_discount = totalprice *( 10/100 )
+    flat_10P_discount = totalprice * (10/100)
 
 if cartPrice > 200:
     flat_10D_discount = 10
@@ -81,16 +79,14 @@ else:
     maxunit = ProductC
     maxunitprice = 50
 
-if maxunit > 15:
+if maxunit > 15 and totalquantity > 30:
     total15unitprice = maxunit * maxunitprice
     gt15unitDff = maxunit - 15
-    gt15unitdiscount = (gt15unitDff * maxunitprice) * (5/100)
+    totalgt15unitdiscount = (gt15unitDff * maxunitprice) / 2
+
 
 elif maxunit > 10:
     productgt10discount = productgt10 - (productgt10 * (5/100))
-
-if totalquantity > 30 and gt15unitdiscount:
-    totalgt15unitdiscount = total15unitprice + gt15unitdiscount
 
 
 def maxdiscount(totalgt15unitdiscount, productgt10discount, flat_10D_discount, flat_10P_discount):
@@ -142,5 +138,5 @@ print("Sub Total = ", subtotal)
 print("Discount applied = {}, Discount name = {}".format(MaxDiscount, max_discountName))
 print("Shipping fee={}, Gift wrap fee={}".format(totalshippingfee, totalwrapfee))
 total = subtotal + totalfee
-print("Total quantities = ",totalquantity)
+print("Total quantities = ", totalquantity)
 print("Total = ", total)
