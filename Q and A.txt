@@ -1,0 +1,58 @@
+1. Why do you like to join as a Software developer?
+   Basically my family background is of more number of doctors and enginers so i was not sure about 
+   which field to choose but lately after my PUC i gained interest in computer and programming 
+   slowly I became an enthusiastic programmer .I get joy when my code runs and gives output without any error,
+   soon after BCA I decided to MCA and wanted to gain more knowledge in the development field so i gained keen interest on 
+   web development and started to learn current technologiies like React.js and node.js
+
+
+
+2. List top 3 software/tools that inspire you. Why do these tools inspire you?
+   a. Visual Studio Code:
+    I find Visual Studio Code's simplicity and extensibility inspiring. 
+    Its wide range of extensions and support for various languages make it a versatile tool,
+    and its active community ensures continuous improvements and its easier to code in vs code because of its emorous extentions like prettier etc..
+   
+   b. GitHub:
+    GitHub is more than just a version control system; it's a collaborative platform that fosters teamwork and innovation. 
+    The way it streamlines collaboration and supports open-source contributions is truly motivating."
+ 
+   c. Docker:
+    Docker simplifies the deployment process by containerizing applications.
+    Its efficiency in managing dependencies and ensuring consistency across different environments is something I find highly inspirational.
+   
+
+
+3. List top 3 organizations you'd like to join in your career & why you like these organizations.
+
+   a. Google:
+     Google's commitment to innovation and pushing boundaries in technology is unparalleled. 
+     I admire their focus on creating products that positively impact billions of users, 
+     and I believe the collaborative and innovative environment at Google would be a perfect fit for my career goals.
+   
+   b. Microsoft:
+     Microsoft's emphasis on inclusivity and continuous learning aligns with my values. 
+     I am impressed by their cloud solutions and the positive impact they have on businesses globally.
+     Joining Microsoft would provide me with the opportunity to contribute to cutting-edge projects.
+  
+   c. Tesla:
+     Tesla's revolutionary approach to technology, particularly in the electric vehicle and sustainable energy sectors, is truly inspiring.
+     Being part of an organization that is at the forefront of driving change and pushing the boundaries of technology is a career aspiration.
+
+
+4. How do you position yourself in this industry after 2 years?
+
+    In the next two years, I aim to position myself as a seasoned software developer known for delivering high-quality solutions. 
+    I plan to deepen my expertise in areas such as [specific technologies or frameworks], take on leadership roles in collaborative projects, and contribute to the success of my team and the organization as a whole.
+
+
+5. List 3 projects/products you have built or planned to build in the upcoming year, and explain your role.
+
+   a. E-commerce Platform:
+     I am currently working on developing an end-to-end e-commerce platform. My role involves designing the backend architecture, implementing robust security features, and optimizing the platform for scalability. I am also collaborating with UX/UI designers to enhance the user experience.
+
+   b. Health and Fitness App:
+     In the upcoming year, I plan to lead the development of a health and fitness app. My responsibilities include building the app's core functionalities, integrating health tracking APIs, and ensuring a seamless user interface. I am excited about contributing to people's well-being through technology.
+
+   c. Open-source Contribution:
+     I am actively involved in an open-source project focused on [specific area]. My role includes collaborating with a global community of developers, addressing issues, and implementing new features. Contributing to open source allows me to share knowledge and improve my coding skills.
